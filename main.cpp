@@ -29,7 +29,7 @@ QApplication a(argc, argv);
 
         view.setLayout(buttonLayout);
         widget->setWindowFlags(Qt::Window);
-    widget->show();
+    //widget->show();
 
     view.show();
     return a.exec();
